@@ -1,3 +1,20 @@
+"""
+Author: Yuewen Li
+Date: 2025/07/25
+Description: this script adds the actual URL in brackets after any existing hyperlinks in a Word (.docx) document.
+
+Usage: Set the path of the input file like this:
+    input_file = r"D:\下载\UAlbany_Research_Contact_Detailed.docx".
+    
+Requirements:
+Install the `python-docx` library using the command: 
+    pip install python-docx
+    
+
+"""
+
+
+
 from docx import Document
 from docx.oxml.ns import qn
 from docx.shared import Pt
