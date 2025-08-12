@@ -1,3 +1,13 @@
+"""
+Author: Yuewen Li
+Date: 2025/08/12
+Description: this script is to evaluate the accuracy of the router result.
+
+Usage: use data files like this: "data.txt"
+
+"""
+
+
 questions = []
 returns = []
 
