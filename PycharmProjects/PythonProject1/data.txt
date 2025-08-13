@@ -104,7 +104,7 @@ Q: What funding sources are available in researching emotional regulation and st
 
         Q: Do you know of a researcher with prior experience in this field who could collaborate? 
 
-        return: researcher_model? 
+        return: researcher_model
 
         Q: Are there funding sources to study climate change impacts on public health? 
 
@@ -557,7 +557,7 @@ Q: What funding sources are available in researching emotional regulation and st
 
         Q: What funding sources are available for Ronald Friedman in researching emotional regulation and stress? 
 
-        return: researcher_name 
+        return: resercher_spec
 
         Q: Could you point me to someone who has research experience in this area and would be a good collaborator? 
 
@@ -880,96 +880,77 @@ return: Q&A
 
 
 
-Q: Find funding opportunities that support research on DNA adduct formation in mouse lung and liver after oral
-naphthalene exposure, focusing on oxidative stress and genotoxicity, with a project period starting after September 2018.
+Q: Find funding opportunities that support research on DNA adduct formation in mouse lung and liver after oral naphthalene exposure, focusing on oxidative stress and genotoxicity, with a project period starting after September 2018.
 return: funding_model
 
-Q: List grants for studies investigating the role of cytochrome P450 enzymes in the metabolic activation of naphthalene
-leading to DNA adduct formation in murine models.
-return: funding_model
-
-
-Q: search for funding opportunities that support research using C57BL/6 mice to study the genotoxic effects of naphthalene
-exposure, employing LC-MS/MS for metabolomic analysis.
+Q: List grants for studies investigating the role of cytochrome P450 enzymes in the metabolic activation of naphthalene leading to DNA adduct formation in murine models.
 return: funding_model
 
 
-Q:  Find funding opportunities that support research in Algorithmic Foundations (AF), focusing on developing novel
-algorithms for large-scale data analysis, including techniques like streaming algorithms, approximation algorithms, and randomized algorithms, with an emphasis on theoretical guarantees and practical applications.
+Q: search for funding opportunities that support research using C57BL/6 mice to study the genotoxic effects of naphthalene exposure, employing LC-MS/MS for metabolomic analysis.
 return: funding_model
 
 
-Q: Find funding opportunities that support research on developing scalable, low-cost desalination technologies utilizing
-solar-driven evaporation and photothermal materials, aiming to address water scarcity in arid regions. The project should involve interdisciplinary approaches, including materials science, fluid dynamics, and renewable energy engineering.
+Q:  Find funding opportunities that support research in Algorithmic Foundations (AF), focusing on developing novel algorithms for large-scale data analysis, including techniques like streaming algorithms, approximation algorithms, and randomized algorithms, with an emphasis on theoretical guarantees and practical applications.
 return: funding_model
 
 
-Q: Find funding opportunities that support the establishment of Programmable Cloud Laboratory Nodes (PCL Nodes)
-capable of executing automated workflows in materials science, biotechnology, or chemistry, with a focus on AI-enabled experiment design, data analysis, and interpretation, aiming to enhance reproducibility and accelerate the translation of basic research into industry applications.
+Q: Find funding opportunities that support research on developing scalable, low-cost desalination technologies utilizing solar-driven evaporation and photothermal materials, aiming to address water scarcity in arid regions. The project should involve interdisciplinary approaches, including materials science, fluid dynamics, and renewable energy engineering.
 return: funding_model
 
 
-Q: Find funding opportunities that support research on the biological and geochemical processes in the Antarctic and
-Southern Ocean, focusing on their roles as drivers and responders to global environmental change, with an emphasis on interdisciplinary approaches and international collaborations.
+Q: Find funding opportunities that support the establishment of Programmable Cloud Laboratory Nodes (PCL Nodes) capable of executing automated workflows in materials science, biotechnology, or chemistry, with a focus on AI-enabled experiment design, data analysis, and interpretation, aiming to enhance reproducibility and accelerate the translation of basic research into industry applications.
 return: funding_model
 
 
-Q: Find funding opportunities that support the development of cyberinfrastructure cores within EPSCoR-eligible
-jurisdictions, aiming to enhance data management, computational resources, and collaborative platforms to foster interdisciplinary research and innovation.
-return: funding_model
-
-Q: Find funding opportunities that encourage proposals for data-driven approaches in materials development, aiming to
-enhance the predictability and manufacturability of materials with desirable properties, through the integration of machine learning and data science.
+Q: Find funding opportunities that support research on the biological and geochemical processes in the Antarctic and Southern Ocean, focusing on their roles as drivers and responders to global environmental change, with an emphasis on interdisciplinary approaches and international collaborations.
 return: funding_model
 
 
-Q: Find funding opportunities that support the establishment of a National Alzheimer's Coordinating Center (NACC) to
-serve as a national data resource, collecting data from Alzheimer's Disease Research Centers (ADRCs), affiliated data, and sample repositories, aiming to facilitate current and future Alzheimer's disease and Alzheimer's disease-related dementias (AD/ADRD) research.
+Q: Find funding opportunities that support the development of cyberinfrastructure cores within EPSCoR-eligible jurisdictions, aiming to enhance data management, computational resources, and collaborative platforms to foster interdisciplinary research and innovation.
+return: funding_model
+
+Q: Find funding opportunities that encourage proposals for data-driven approaches in materials development, aiming to enhance the predictability and manufacturability of materials with desirable properties, through the integration of machine learning and data science.
 return: funding_model
 
 
-Q: Find funding opportunities that support exploratory and early-stage projects focusing on undruggable target classes
-within intractable human diseases, aiming to develop methods or agents selective for one or more targets within that target class.
+Q: Find funding opportunities that support the establishment of a National Alzheimer's Coordinating Center (NACC) to serve as a national data resource, collecting data from Alzheimer's Disease Research Centers (ADRCs), affiliated data, and sample repositories, aiming to facilitate current and future Alzheimer's disease and Alzheimer's disease-related dementias (AD/ADRD) research.
 return: funding_model
 
 
-Q: Find funding opportunities that support research on HIV/AIDS-related gastrointestinal enteropathy, focusing on
- mechanisms of intestinal epithelial barrier dysfunction, systemic inflammation, and their contributions to noncommunicable liver diseases and obesity.
+Q: Find funding opportunities that support exploratory and early-stage projects focusing on undruggable target classes within intractable human diseases, aiming to develop methods or agents selective for one or more targets within that target class.
 return: funding_model
 
 
-Q: Find funding opportunities that support research on the impact of HIV/AIDS on auditory processing, focusing on the
- neurophysiological mechanisms underlying central auditory processing disorders in individuals living with HIV.
+Q: Find funding opportunities that support research on HIV/AIDS-related gastrointestinal enteropathy, focusing on mechanisms of intestinal epithelial barrier dysfunction, systemic inflammation, and their contributions to noncommunicable liver diseases and obesity.
 return: funding_model
 
 
-Q: Find funding opportunities that support clinical trials investigating novel interventions for communication disorders such
- as hearing loss, vestibular dysfunction, speech and language impairments, with emphasis on multidisciplinary approaches and translational research.
+Q: Find funding opportunities that support research on the impact of HIV/AIDS on auditory processing, focusing on the neurophysiological mechanisms underlying central auditory processing disorders in individuals living with HIV.
 return: funding_model
 
 
-Q: Find funding opportunities that support the development of non-invasive imaging techniques to visualize auditory and
- vestibular components in vivo, focusing on structures such as hair cells, otoliths, membranes, ions, and vasculature.
+Q: Find funding opportunities that support clinical trials investigating novel interventions for communication disorders such as hearing loss, vestibular dysfunction, speech and language impairments, with emphasis on multidisciplinary approaches and translational research.
 return: funding_model
 
 
-Q: Find funding opportunities that support high-risk multi-center clinical trials focused on endocrine and metabolic
-diseases, aiming to develop innovative therapeutic interventions with the potential to change clinical practice.
+Q: Find funding opportunities that support the development of non-invasive imaging techniques to visualize auditory and vestibular components in vivo, focusing on structures such as hair cells, otoliths, membranes, ions, and vasculature.
 return: funding_model
 
 
-Q: Find funding opportunities that support the development of automated vulnerability detection tools for open-source
- ecosystems, focusing on memory safety, side-channel attacks, and dependency management.
+Q: Find funding opportunities that support high-risk multi-center clinical trials focused on endocrine and metabolic diseases, aiming to develop innovative therapeutic interventions with the potential to change clinical practice.
 return: funding_model
 
 
- Q: Find funding opportunities that support large-scale interdisciplinary research projects focused on advancing quantum
-information science, engineering, and technology through collaboration, education, and innovation, as part of the National Quantum Initiative.
+Q: Find funding opportunities that support the development of automated vulnerability detection tools for open-source ecosystems, focusing on memory safety, side-channel attacks, and dependency management.
 return: funding_model
 
 
-Q: Find funding opportunities that support the development of innovative mathematical theories, techniques, and
-approaches to investigate challenging questions of great interest to biologists and public health policymakers.
+ Q: Find funding opportunities that support large-scale interdisciplinary research projects focused on advancing quantum information science, engineering, and technology through collaboration, education, and innovation, as part of the National Quantum Initiative.
+return: funding_model
+
+
+Q: Find funding opportunities that support the development of innovative mathematical theories, techniques, and approaches to investigate challenging questions of great interest to biologists and public health policymakers.
 return: funding_model
 
 
@@ -977,66 +958,54 @@ Q: Find funding opportunities that support innovative and interdisciplinary team
 return: funding_model
 
 
-Q: Find funding opportunities that support small-scale, investigator-initiated research projects focusing on the ethical,
-legal, and social implications (ELSI) of human genetic or genomic research, particularly those involving normative or conceptual analyses.
+Q: Find funding opportunities that support small-scale, investigator-initiated research projects focusing on the ethical, legal, and social implications (ELSI) of human genetic or genomic research, particularly those involving normative or conceptual analyses.
 return: funding_model
 
 
-Q: Find funding opportunities that support the development of a comprehensive Manual of Procedures (MOP) for
-collaborative clinical research studies in eye and vision conditions, including retinal diseases, corneal diseases, cataract, glaucoma, strabismus, amblyopia, and low vision rehabilitation.
+Q: Find funding opportunities that support the development of a comprehensive Manual of Procedures (MOP) for collaborative clinical research studies in eye and vision conditions, including retinal diseases, corneal diseases, cataract, glaucoma, strabismus, amblyopia, and low vision rehabilitation.
 return: funding_model
 
 
-Q: Find funding opportunities that support the development and testing of novel interventions aimed at improving HIV
-prevention, treatment, and program implementation for people who use substances.
+Q: Find funding opportunities that support the development and testing of novel interventions aimed at improving HIV prevention, treatment, and program implementation for people who use substances.
 return: funding_model
 
-Q: Find funding opportunities that support prospective observational comparative effectiveness research (CER) in clinical
-neurosciences, focusing on evaluating preventive strategies, diagnostic approaches, or interventions including drugs, biologics, devices, or surgical, behavioral, and rehabilitation therapies.
+Q: Find funding opportunities that support prospective observational comparative effectiveness research (CER) in clinical neurosciences, focusing on evaluating preventive strategies, diagnostic approaches, or interventions including drugs, biologics, devices, or surgical, behavioral, and rehabilitation therapies.
 return: funding_model
 
-Q: Find funding opportunities that support exploratory and innovative research projects in neuroscience, focusing on the
- early and conceptual stages of projects that assess the feasibility of novel avenues of investigation.
+Q: Find funding opportunities that support exploratory and innovative research projects in neuroscience, focusing on the early and conceptual stages of projects that assess the feasibility of novel avenues of investigation.
  return: funding_model
 
- Q: Find funding opportunities that support Early Stage Investigators (ESIs) who qualify for conversion based on receiving a
- percentile within the NCI payline for established investigators on their R01 applications.
+ Q: Find funding opportunities that support Early Stage Investigators (ESIs) who qualify for conversion based on receiving a percentile within the NCI payline for established investigators on their R01 applications.
  return: funding_model
 
  Q: Find funding opportunities that aim to improve the resolution of current imaging techniques or develop new imaging techniques to visualize inner ear structures in vivo with significantly greater detail and accuracy.
  return: funding_model
 
- Q: Find funding opportunities that support high-risk clinical trials for the development of in vivo high-resolution structural
-and functional imaging technologies for the living human inner ear.
+ Q: Find funding opportunities that support high-risk clinical trials for the development of in vivo high-resolution structural and functional imaging technologies for the living human inner ear.
 return: funding_model
 
-Q: Find funding opportunities that support the discovery and development of medications to prevent and treat substance
-use disorders (SUDs) and overdose, including small molecules, biologics, new chemical entities, new formulations of marketed medications, or combinations of medications.
+Q: Find funding opportunities that support the discovery and development of medications to prevent and treat substance use disorders (SUDs) and overdose, including small molecules, biologics, new chemical entities, new formulations of marketed medications, or combinations of medications.
 return: funding_model
 
-Q: Find funding opportunities that support secondary data analyses of existing human data from vision-related clinical
-trials, epidemiologic studies, or health care databases to investigate additional research questions or develop new analytical approaches.
+Q: Find funding opportunities that support secondary data analyses of existing human data from vision-related clinical trials, epidemiologic studies, or health care databases to investigate additional research questions or develop new analytical approaches.
 return: funding_model
 
-Q: Find funding opportunities that support a clinical doctoral degree holder conducting and leading an independent
-clinical trial, feasibility study, or ancillary clinical trial as part of their patient-oriented research career development.
+Q: Find funding opportunities that support a clinical doctoral degree holder conducting and leading an independent clinical trial, feasibility study, or ancillary clinical trial as part of their patient-oriented research career development.
 return: funding_model
 
-Q: Find funding opportunities that support early-career research scientists from low- or middle-income countries (LMICs)
-holding junior faculty or research appointments, providing mentored research career development and research project support relevant to their country’s health priorities.
+Q: Find funding opportunities that support early-career research scientists from low- or middle-income countries (LMICs) holding junior faculty or research appointments, providing mentored research career development and research project support relevant to their country’s health priorities.
 return: funding_model
 
-Q: Find funding opportunities that provide 'protected time' (salary and research support) for individuals with a clinical
-doctoral degree to pursue intensive, mentored research career development, excluding leadership of independent clinical trials but allowing participation in trials led by a mentor.
+Q: Find funding opportunities that provide 'protected time' (salary and research support) for individuals with a clinical doctoral degree to pursue intensive, mentored research career development, excluding leadership of independent clinical trials but allowing participation in trials led by a mentor.
 return: funding_model
 
-Q: Find funding opportunities that provide “protected time” for quantitative scientists from fields like mathematics,
-physics, informatics, or engineering to gain expertise in biomedicine or bioimaging, but explicitly prohibit leading an independent clinical trial (while allowing mentored trial participation).
+Q: Find funding opportunities that provide “protected time” for quantitative scientists from fields like mathematics, physics, informatics, or engineering to gain expertise in biomedicine or bioimaging, but explicitly prohibit leading an independent clinical trial (while allowing mentored trial participation).
 return: funding_model
 
-Q: Find funding opportunities that support exceptionally innovative, high-risk, high-reward projects with the potential to
-establish new scientific paradigms or transformative technologies—without requiring preliminary data and open to all topic areas across the NIH mission."
-Find funding opportunities that support a longitudinal, nationally representative cohort re-interview, in-home health visits, venous blood collection, biomarker assays, cognitive and sensory assessments, and data dissemination as Wave VII of the Add Health study.
+Q: Find funding opportunities that support exceptionally innovative, high-risk, high-reward projects with the potential to establish new scientific paradigms or transformative technologies—without requiring preliminary data and open to all topic areas across the NIH mission."
+return: funding_model
+
+Q: Find funding opportunities that support a longitudinal, nationally representative cohort re-interview, in-home health visits, venous blood collection, biomarker assays, cognitive and sensory assessments, and data dissemination as Wave VII of the Add Health study.
 return: funding_model
 
  
