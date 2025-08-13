@@ -1,0 +1,1014 @@
+Q: What funding sources are available in researching emotional regulation and stress? 
+
+        return: funding_model 
+
+        Q: Are there grants available for Kajal Lahiri to study economic forecasting and predictive modeling? 
+
+        return: resercher_spec 
+
+        Q: What opportunities exist for Scott South to study demographic shifts and urban sociology? 
+
+        return: resercher_spec 
+
+        Q: Which funding opportunities exist for Deborah Lafond in researching digital libraries and metadata analysis? 
+
+        return: resercher_spec
+
+ 
+
+        Q: Could you recommend a researcher who has experience with this research theme? 
+
+        return: researcher_model 
+
+        Q: Can you help me find a collaborator who has experience managing projects like this? 
+
+        return: researcher_model 
+
+        Q: Are there research grants available for Lauren Puzier to study the role of AI in academic libraries? 
+
+        return: resercher_spec 
+
+        Q: Would you know any researcher with prior experience who might be interested in collaborating? 
+
+        return: researcher_model 
+
+        Q: Which grants support Shaobin Sheu in researching semiconductor materials and nanotechnology? 
+
+        return: resercher_spec 
+
+        Q: Which funding opportunities exist for Olimpia Pelosi in researching European history and cultural studies? 
+
+        return: resercher_spec 
+
+        Q: Are there NIH grants to conduct archaeological research in Mesoamerica? 
+
+        return: funding_model 
+
+        Q: Would you be able to point me to a researcher who has experience in similar investigations? 
+
+        return: researcher_model 
+
+        Q: What funding sources support Mariya Zheleva in researching wireless communication and rural broadband? 
+
+        return: resercher_spec 
+
+ 
+
+        Q: Are there NIH grants available for Kimberly Cornell to study adolescent mental health interventions? 
+
+        return: resercher_spec 
+
+        Q: Would you suggest a researcher who has worked on similar projects before? 
+
+        return: researcher_model 
+
+        Q: Could you suggest a researcher with past expertise who would be a good fit for this? 
+
+        return: researcher_model 
+
+        Q: Can you recommend a collaborator who has practical experience with this type of research? 
+
+        return: researcher_model 
+
+        Q: Can you recommend someone who has a proven track record in this research area? 
+
+        return: researcher_model 
+
+        Q: Can you help me identify a researcher with hands-on experience in this field of study? 
+
+        return: researcher_model 
+
+        Q: Are there federal grants supporting studies in criminal justice reform? 
+
+        return: funding_model 
+
+        Q: Would you know anyone with a history of working on projects similar to this? 
+
+        return: researcher_model 
+
+        Q: What funding options exist for Angie Chung in researching Asian American immigration patterns? 
+
+        return: resercher_spec 
+
+        Q: Are there NIH grants supporting Paul Rafferty in studying early childhood language development? 
+
+        return: resercher_spec 
+
+        Q: What grants can support researching global educational policies? 
+
+        return: funding_model 
+
+        Q: Are there NIH grants to study Latin American cultural identity in literature? 
+
+        return: funding_model 
+
+        Q: Do you know of a researcher with prior experience in this field who could collaborate? 
+
+        return: researcher_model
+
+        Q: Are there funding sources to study climate change impacts on public health? 
+
+        return: funding_model 
+
+        Q: Could you introduce me to a researcher who has expertise in this subject from past work? 
+
+        return: researcher_model 
+
+
+ 
+
+        Q: What funding sources are available in social work and community-based interventions? 
+
+        return: funding_model 
+
+        Q: Could you suggest a researcher who has handled similar projects in the past? 
+
+        return: researcher_model 
+
+        Q: What funding sources support research on AI-driven educational assessment tools for Peter Shea? 
+
+        return: resercher_spec 
+
+        Q: Could you help me find a researcher who has previously been involved in this kind of research? 
+
+        return: researcher_model 
+
+        Q: Can you suggest someone who has previous research experience in this area? 
+
+        return: researcher_model 
+
+        Q: Are there NIH grants for Kristie Saddler to study communication strategies in medical education? 
+
+        return: resercher_spec 
+
+
+        Q: Can you find a researcher who has expertise from previous work in this domain? 
+
+        return: researcher_model 
+
+        Q: What funding opportunities exist to study Bayesian statistics and probability theory? 
+
+        return: funding_model 
+
+        Q: What funding opportunities exist for Akiko Hosler to research public health disparities? 
+
+        return: resercher_spec 
+
+        Q: Can you suggest a researcher with experience in conducting similar projects? 
+
+        return: researcher_model 
+
+        Q: Are there Department of Energy grants for Sergei V. Reverdatto to study computational physics? 
+
+        return: resercher_spec 
+
+        Q: Are there funding sources for Juan Melendez to study social justice movements and activism? 
+
+        return: resercher_spec 
+
+
+ 
+
+        Q: Are there NSF grants available for Zsofia Barta to study the political economy of taxation? 
+
+        return: resercher_spec 
+
+        Q: Are there federal grants supporting Susan Phillips in environmental policy and sustainability? 
+
+        return: resercher_spec 
+
+        Q: Can you suggest a colleague with past experience in this area who might collaborate? 
+
+        return: researcher_model 
+
+        Q: Are there NSF grants to study technology-driven curriculum design? 
+
+        return: funding_model 
+
+        Q: Could you help me identify a researcher with relevant past work in this field? 
+
+        return: researcher_model 
+
+        Q: Are there NSF grants available to study the political economy of taxation? 
+
+        return: funding_model 
+
+        Q: Can you find a researcher who has previously collaborated on projects like this? 
+
+        return: researcher_model 
+
+        Q: What funding opportunities exist to research public health disparities? 
+
+        return: funding_model 
+
+        Q: What funding opportunities are available for Adam Gordon in researching anthropological genetics? 
+
+        return: resercher_spec 
+
+        Q: What funding sources support researching wireless communication and rural broadband? 
+
+        return: funding_model 
+
+        Q: Which funding opportunities support JoAnne Malatesta in higher education administration and student success? 
+
+        return: resercher_spec 
+
+        Q: Which funding opportunities exist to study consumer behavior and neuromarketing? 
+
+        return: funding_model 
+
+        Q: Which grants can support researching international nonprofit management? 
+
+        return: funding_model 
+
+        Q: Could you suggest someone with hands-on experience in this line of work? 
+
+        return: researcher_model 
+
+        Q: Which funding opportunities exist in researching digital libraries and metadata analysis? 
+
+        return: funding_model 
+
+        Q: What grants support researching visible light communication and IoT applications? 
+
+        return: funding_model 
+
+        Q: Are there funding sources for Shao Lin to study climate change impacts on public health? 
+
+        return: resercher_spec 
+
+        Q: Are there Department of Defense grants for James Schwab to work on cybersecurity risk assessment? 
+
+        return: resercher_spec 
+
+        Q: Are there NIH grants to study communication strategies in medical education? 
+
+        return: funding_model 
+
+        Q: What funding exists for Kevin Williams to study forensic psychology and criminal behavior? 
+
+        return: resercher_spec 
+
+
+ 
+
+        Q: Would you know any researcher with relevant experience who could be a good collaborator? 
+
+        return: researcher_model 
+
+        Q: Would you be able to introduce me to a researcher with experience in this domain? 
+
+        return: researcher_model 
+
+        Q: Are there NSF grants for Patricia Strach to study the intersection of politics and public policy? 
+
+        return: resercher_spec 
+
+        Q: What grants exist for Lisa Daniels in researching gender disparities in STEM education? 
+
+        return: resercher_spec 
+
+        Q: Are there federal grants supporting Mitchell Bushway in studying criminal justice reform? 
+
+        return: resercher_spec 
+
+        Q: Are there funding sources to research renewable energy systems? 
+
+        return: funding_model 
+
+
+ 
+
+        Q: Are there NSF grants available for Ricky Leung to study healthcare informatics and technology policy? 
+
+        return: resercher_spec 
+
+        Q: What funding supports Virginia Goatley in researching literacy development in early childhood? 
+
+        return: resercher_spec 
+
+        Q: Could you connect me to a researcher with a history of similar academic work? 
+
+        return: researcher_model 
+
+        Q: Are there funding sources for Anupam Srivastav to research renewable energy systems? 
+
+        return: resercher_spec 
+
+        Q: Could you connect me with someone who has conducted similar research in the past? 
+
+        return: researcher_model 
+
+        Q: Can you advise on someone with experience in handling research of this kind? 
+
+        return: researcher_model 
+
+        Q: Can you help me find a collaborator who has expertise from previous work? 
+
+        return: researcher_model 
+
+        Q: Which grants support researching semiconductor materials and nanotechnology? 
+
+        return: funding_model 
+
+        Q: Are there NIH grants supporting research on aging and neurodegenerative diseases? 
+
+        return: funding_model 
+
+ 
+
+        Q: What funding sources support research on AI-driven educational assessment tools? 
+
+        return: funding_model 
+
+        Q: Are there NSF grants available for Cristian Lenart in algebraic topology and combinatorial mathematics? 
+
+        return: resercher_spec 
+
+        Q: Do you know a researcher who has previously worked in this field and could partner with me? 
+
+        return: researcher_model 
+
+        Q: What funding exists to study forensic psychology and criminal behavior? 
+
+        return: funding_model 
+
+        Q: Which funding sources support Hal Lawson in researching school-community partnerships for student well-being? 
+
+        return: resercher_spec 
+
+        Q: What funding supports Benoit Boivin in researching oceanography and climate modeling? 
+
+        return: resercher_spec 
+
+
+ 
+
+        Q: Are there NSF grants for Joette Stefl-Mabry to study technology-driven curriculum design? 
+
+        return: resercher_spec 
+
+        Q: What funding opportunities are available in researching anthropological genetics? 
+
+        return: funding_model 
+
+        Q: Which funding opportunities support higher education administration and student success? 
+
+        return: funding_model 
+
+        Q: Can you advise me on a researcher who has practical experience in this domain? 
+
+        return: researcher_model 
+
+        Q: Are there research grants available to study the role of AI in academic libraries? 
+
+        return: funding_model 
+
+        Q: What grants support Hany Elgala in researching visible light communication and IoT applications? 
+
+        return: resercher_spec 
+
+
+ 
+
+        Q: Can you connect me with a researcher who has past experience in this field? 
+
+        return: researcher_model 
+
+        Q: Are there funding opportunities for Jeffrey Berman in researching trauma and narrative therapy? 
+
+        return: resercher_spec 
+
+        Q: Are there NIH grants supporting studies in early childhood language development? 
+
+        return: funding_model 
+
+        Q: Would you recommend a researcher who has a background in this subject area? 
+
+        return: researcher_model 
+
+        Q: Are there funding sources to study social justice movements and activism? 
+
+        return: funding_model 
+
+        Q: Would you suggest a researcher who has experience in this particular field of study? 
+
+        return: researcher_model 
+
+        Q: Can you recommend a researcher with relevant experience for this project? 
+
+        return: researcher_model 
+
+
+ 
+
+        Q: What funding supports researching literacy development in early childhood? 
+
+        return: funding_model 
+
+        Q: Are there NSF grants for Gregory Lnenicka to study neuronal signal transmission? 
+
+        return: resercher_spec 
+
+        Q: Can you connect me to someone who has experience working on this kind of research? 
+
+        return: researcher_model 
+
+        Q: Can you point me to someone who has prior research experience in this area? 
+
+        return: researcher_model 
+
+        Q: Could you point me toward a researcher who has worked on similar studies before? 
+
+        return: researcher_model 
+
+
+ 
+
+        Q: What funding options exist in researching Asian American immigration patterns? 
+
+        return: funding_model 
+
+        Q: Would you recommend a researcher who has a background in conducting similar research? 
+
+        return: researcher_model 
+
+        Q: What funding is available to study the impact of library science on digital literacy? 
+
+        return: funding_model 
+
+        Q: What funding opportunities exist to study demographic shifts and urban sociology? 
+
+        return: funding_model 
+
+
+ 
+
+        Q: Which funding opportunities exist in researching European history and cultural studies? 
+
+        return: funding_model 
+
+        Q: What grants can support Gilbert Valverde in researching global educational policies? 
+
+        return: resercher_spec 
+
+        Q: What funding opportunities exist for Carlos Rodriguez to study Bayesian statistics and probability theory? 
+
+        return: resercher_spec 
+
+        Q: Are there NIH grants available to study adolescent mental health interventions? 
+
+        return: funding_model 
+
+        Q: Can you suggest a researcher who has experience with research projects similar to this one? 
+
+        return: researcher_model 
+
+        Q: What NSF grants exist for Katherine Trent to study family structure changes and socioeconomic impacts? 
+
+        return: resercher_spec 
+
+        Q: Are there NIH grants for Carmen Serrano to study Latin American cultural identity in literature? 
+
+        return: resercher_spec 
+
+        Q: Do you know of a researcher with past experience who could be interested in this project? 
+
+        return: researcher_model 
+
+        Q: Are there NSF grants available to study healthcare informatics and technology policy? 
+
+        return: funding_model 
+
+        Q: What NSF grants exist to study family structure changes and socioeconomic impacts? 
+
+        return: funding_model 
+
+        Q: What grants exist in researching gender disparities in STEM education? 
+
+        return: funding_model 
+
+        Q: What grants support Dmitry Korobeynikov in mathematical physics research? 
+
+        return: resercher_spec 
+
+
+ 
+
+        Q: Do you have any recommendations for a researcher who has experience in this topic? 
+
+        return: researcher_model 
+
+        Q: Which funding agencies support Richard Cunningham in studying historical literature and digital humanities? 
+
+        return: resercher_spec 
+
+        Q: Could you recommend an experienced researcher to join this project? 
+
+        return: researcher_model 
+
+        Q: Are there NSF grants available in algebraic topology and combinatorial mathematics? 
+
+        return: funding_model 
+
+        Q: Are there NIH grants for Marilyn Masson to conduct archaeological research in Mesoamerica? 
+
+        return: resercher_spec 
+
+
+
+        Q: Would you be able to direct me to a researcher who has relevant past experience? 
+
+        return: researcher_model 
+
+        Q: Are there NSF grants to study neuronal signal transmission? 
+
+        return: funding_model 
+
+        Q: Are there NSF grants to study the intersection of politics and public policy? 
+
+        return: funding_model 
+
+        Q: Can you help me find someone who has a proven background in similar studies? 
+
+        return: researcher_model 
+
+        Q: Can you introduce me to a researcher who has previously worked in this area of research? 
+
+        return: researcher_model 
+
+        Q: Are there federal grants supporting environmental policy and sustainability? 
+
+        return: funding_model 
+
+        Q: Are there grants available to study economic forecasting and predictive modeling? 
+
+        return: funding_model 
+
+        Q: Are there Department of Energy grants to study computational physics? 
+
+        return: funding_model 
+
+        Q: Which grants can support Susan Appe in researching international nonprofit management? 
+
+        return: resercher_spec 
+
+
+
+        Q: What funding sources are available for Ronald Friedman in researching emotional regulation and stress? 
+
+        return: resercher_spec
+
+        Q: Could you point me to someone who has research experience in this area and would be a good collaborator? 
+
+        return: researcher_model 
+
+        Q: Would you be able to help me find a collaborator with a history of working in this field? 
+
+        return: researcher_model 
+
+        Q: What grants support mathematical physics research? 
+
+        return: funding_model 
+
+        Q: Could you connect me with someone who has expertise from past research efforts? 
+
+        return: researcher_model 
+
+        Q: What funding sources support researching biocompatible materials for medical implants? 
+
+        return: funding_model 
+
+
+
+        Q: Which grants support researching cognitive neuroscience and reading comprehension? 
+
+        return: funding_model 
+
+        Q: Are there Department of Defense grants to work on cybersecurity risk assessment? 
+
+        return: funding_model 
+
+        Q: Which grants support Heather Sheridan in researching cognitive neuroscience and reading comprehension? 
+
+        return: resercher_spec 
+
+        Q: Which funding agencies support studying historical literature and digital humanities? 
+
+        return: funding_model 
+
+
+
+ 
+
+        Q: What funding sources are available for Blanca Ramos in social work and community-based interventions? 
+
+        return: resercher_spec 
+
+        Q: What funding supports researching oceanography and climate modeling? 
+
+        return: funding_model 
+
+        Q: Which funding opportunities exist for Ioannis Kareklas to study consumer behavior and neuromarketing? 
+
+        return: resercher_spec 
+
+
+
+ 
+
+        Q: What funding is available for Wendy West to study the impact of library science on digital literacy? 
+
+        return: resercher_spec 
+
+        Q: Which funding sources support researching school-community partnerships for student well-being? 
+
+        return: funding_model 
+
+        Q: Could you point me to a colleague with previous experience in this type of work? 
+
+        return: researcher_model 
+
+
+
+        Q: Are there funding opportunities in researching trauma and narrative therapy? 
+
+        return: funding_model 
+
+        Q: What funding sources support Yubing Xie in researching biocompatible materials for medical implants? 
+
+        return: resercher_spec 
+
+        Q: Can you recommend a researcher with a solid background in this area? 
+
+        return: researcher_model 
+
+
+
+        Q: Could you help me find a collaborator who has prior experience in this area? 
+
+        return: researcher_model 
+
+        Q: Are there NIH grants supporting Heinz Meyer in researching aging and neurodegenerative diseases? 
+
+        return: resercher_spec 
+
+Q: What factors determine if research is patentable?
+
+return: Q&A
+
+Q: What are key challenges in international research funding?
+
+return: Q&A
+
+Q: What steps should I take before publishing research with commercial potential?
+
+return: Q&A
+
+Q: How can I use social media effectively to share my research?
+
+return: Q&A
+
+Q: What steps are involved in closing out a grant-funded project?
+
+return: Q&A
+
+Q: Where can I find guidelines on modifying my grant after it is awarded?
+
+return: Q&A
+
+Q: What rights do researchers have over inventions developed under a federal grant?
+
+return: Q&A
+
+Q: What are export control restrictions, and how do they affect research collaborations?
+
+return: Q&A
+
+Q: How long does the award negotiation process take?
+
+return: Q&A
+
+Q: Can I use grant funds to pay international researchers?
+
+return: Q&A
+
+Q: Can I hire students on my research grant?
+
+return: Q&A
+
+Q: What is cost-sharing in research funding?
+
+return: Q&A
+
+Q: How do I report research misconduct?
+
+return: Q&A
+
+Q: What happens if a conflict of interest is not disclosed?
+
+return: Q&A
+
+Q: What is a data management plan (DMP)?
+
+return: Q&A
+
+Q: What is a no-cost extension?
+
+return: Q&A
+
+Q: How do I submit my final report for a grant?
+
+return: Q&A
+
+Q: What is a subcontract in a research grant?
+
+return: Q&A
+
+Q: Can an international collaborator be part of my grant?
+
+return: Q&A
+
+Q: What are best practices for protecting research data?
+
+return: Q&A
+
+Q: How do I find collaborators for interdisciplinary grants?
+
+return: Q&A
+
+Q: How do I ensure human subject research compliance?
+
+return: Q&A
+
+Q: What is the Award Lifecycle?
+
+return: Q&A
+Q: What are the benefits of interdisciplinary grant proposals?
+
+return: Q&A
+
+Q: How do I engage with policymakers to translate research into public policy?
+
+return: Q&A
+
+Q: How do I navigate authorship disputes in multi-investigator grants?
+
+return: Q&A
+
+Q: What is the difference between direct and indirect costs in research grants?
+
+return: Q&A
+
+Q: What tools can help manage large, multi-institutional research projects?
+
+return: Q&A
+
+Q: What types of expenses are typically covered under indirect costs?
+
+return: Q&A
+
+Q: How do I submit an annual progress report for my NSF grant?
+
+return: Q&A
+
+
+Q: How do I submit my final report for a grant?
+
+return: Q&A
+
+Q: What is a subcontract in a research grant?
+
+return: Q&A
+
+Q: How do I get institutional support for my research?
+
+return: Q&A
+
+Q: How do I communicate my research to non-experts?
+
+return: Q&A
+
+Q: What sections are critical in a federal grant proposal?
+
+return: Q&A
+
+Q: How can I prevent conflicts of interest in research funding?
+
+return: Q&A
+
+Q: Why is public outreach important for federally funded research?
+
+return: Q&A
+
+Q: Can AI tools help write grant proposals?
+
+return: Q&A
+
+Q: How do I calculate indirect costs for my proposal?
+
+return: Q&A
+
+Q: How can I make my grant proposal stand out from competitors?
+
+return: Q&A
+
+Q: How do I address weaknesses in a resubmitted grant proposal?
+
+return: Q&A
+
+Q: What is the role of Facilities & Administrative (F&A) costs in grant budgets?
+
+return: Q&A
+
+Q: How does my university’s research office assist with grant applications?
+
+return: Q&A
+
+Q: Are indirect costs negotiable in a grant proposal?
+
+return: Q&A
+
+Q: Can grant funds be used for international travel?
+
+return: Q&A
+
+Q: Do I need IRB approval for my research?
+
+return: Q&A
+
+Q: What are my responsibilities as a PI after receiving an award?
+return: Q&A
+
+Q: What are the key components of a research proposal?
+return: Q&A
+
+Q: What is the difference between direct and indirect costs in a proposal budget?
+return: Q&A
+
+Q: What is the Award Lifecycle?
+return: Q&A
+
+Q: What types of funding opportunities are available for researchers?
+return: Q&A
+
+Q: What are emerging trends in federal research funding?
+return: Q&A
+
+Q: How will AI and automation change the grant review process?
+return: Q&A
+
+Q: What funding is available for high-risk, high-reward research?
+return: Q&A
+
+Q:  What role does my university’s research office play in grant applications?
+return: Q&A
+
+Q: How do I secure long-term funding for my research lab?
+return: Q&A
+
+Q: What are allowable and unallowable costs in research funding?
+return: Q&A
+
+Q: What are the legal obligations of a subcontractor?
+return: Q&A
+
+Q: Who owns the intellectual property generated from a funded project?
+return: Q&A
+
+
+
+
+
+Q: Find funding opportunities that support research on DNA adduct formation in mouse lung and liver after oral naphthalene exposure, focusing on oxidative stress and genotoxicity, with a project period starting after September 2018.
+return: funding_model
+
+Q: List grants for studies investigating the role of cytochrome P450 enzymes in the metabolic activation of naphthalene leading to DNA adduct formation in murine models.
+return: funding_model
+
+
+Q: search for funding opportunities that support research using C57BL/6 mice to study the genotoxic effects of naphthalene exposure, employing LC-MS/MS for metabolomic analysis.
+return: funding_model
+
+
+Q:  Find funding opportunities that support research in Algorithmic Foundations (AF), focusing on developing novel algorithms for large-scale data analysis, including techniques like streaming algorithms, approximation algorithms, and randomized algorithms, with an emphasis on theoretical guarantees and practical applications.
+return: funding_model
+
+
+Q: Find funding opportunities that support research on developing scalable, low-cost desalination technologies utilizing solar-driven evaporation and photothermal materials, aiming to address water scarcity in arid regions. The project should involve interdisciplinary approaches, including materials science, fluid dynamics, and renewable energy engineering.
+return: funding_model
+
+
+Q: Find funding opportunities that support the establishment of Programmable Cloud Laboratory Nodes (PCL Nodes) capable of executing automated workflows in materials science, biotechnology, or chemistry, with a focus on AI-enabled experiment design, data analysis, and interpretation, aiming to enhance reproducibility and accelerate the translation of basic research into industry applications.
+return: funding_model
+
+
+Q: Find funding opportunities that support research on the biological and geochemical processes in the Antarctic and Southern Ocean, focusing on their roles as drivers and responders to global environmental change, with an emphasis on interdisciplinary approaches and international collaborations.
+return: funding_model
+
+
+Q: Find funding opportunities that support the development of cyberinfrastructure cores within EPSCoR-eligible jurisdictions, aiming to enhance data management, computational resources, and collaborative platforms to foster interdisciplinary research and innovation.
+return: funding_model
+
+Q: Find funding opportunities that encourage proposals for data-driven approaches in materials development, aiming to enhance the predictability and manufacturability of materials with desirable properties, through the integration of machine learning and data science.
+return: funding_model
+
+
+Q: Find funding opportunities that support the establishment of a National Alzheimer's Coordinating Center (NACC) to serve as a national data resource, collecting data from Alzheimer's Disease Research Centers (ADRCs), affiliated data, and sample repositories, aiming to facilitate current and future Alzheimer's disease and Alzheimer's disease-related dementias (AD/ADRD) research.
+return: funding_model
+
+
+Q: Find funding opportunities that support exploratory and early-stage projects focusing on undruggable target classes within intractable human diseases, aiming to develop methods or agents selective for one or more targets within that target class.
+return: funding_model
+
+
+Q: Find funding opportunities that support research on HIV/AIDS-related gastrointestinal enteropathy, focusing on mechanisms of intestinal epithelial barrier dysfunction, systemic inflammation, and their contributions to noncommunicable liver diseases and obesity.
+return: funding_model
+
+
+Q: Find funding opportunities that support research on the impact of HIV/AIDS on auditory processing, focusing on the neurophysiological mechanisms underlying central auditory processing disorders in individuals living with HIV.
+return: funding_model
+
+
+Q: Find funding opportunities that support clinical trials investigating novel interventions for communication disorders such as hearing loss, vestibular dysfunction, speech and language impairments, with emphasis on multidisciplinary approaches and translational research.
+return: funding_model
+
+
+Q: Find funding opportunities that support the development of non-invasive imaging techniques to visualize auditory and vestibular components in vivo, focusing on structures such as hair cells, otoliths, membranes, ions, and vasculature.
+return: funding_model
+
+
+Q: Find funding opportunities that support high-risk multi-center clinical trials focused on endocrine and metabolic diseases, aiming to develop innovative therapeutic interventions with the potential to change clinical practice.
+return: funding_model
+
+
+Q: Find funding opportunities that support the development of automated vulnerability detection tools for open-source ecosystems, focusing on memory safety, side-channel attacks, and dependency management.
+return: funding_model
+
+
+ Q: Find funding opportunities that support large-scale interdisciplinary research projects focused on advancing quantum information science, engineering, and technology through collaboration, education, and innovation, as part of the National Quantum Initiative.
+return: funding_model
+
+
+Q: Find funding opportunities that support the development of innovative mathematical theories, techniques, and approaches to investigate challenging questions of great interest to biologists and public health policymakers.
+return: funding_model
+
+
+Q: Find funding opportunities that support innovative and interdisciplinary team research focused on clinical, health services, and/or community-based interventions that address health and healthcare disparities related to non-communicable and chronic diseases (NCDs) with the highest disease burden and mortality in Latin America and among U.S. Hispanics/Latinos.
+return: funding_model
+
+
+Q: Find funding opportunities that support small-scale, investigator-initiated research projects focusing on the ethical, legal, and social implications (ELSI) of human genetic or genomic research, particularly those involving normative or conceptual analyses.
+return: funding_model
+
+
+Q: Find funding opportunities that support the development of a comprehensive Manual of Procedures (MOP) for collaborative clinical research studies in eye and vision conditions, including retinal diseases, corneal diseases, cataract, glaucoma, strabismus, amblyopia, and low vision rehabilitation.
+return: funding_model
+
+
+Q: Find funding opportunities that support the development and testing of novel interventions aimed at improving HIV prevention, treatment, and program implementation for people who use substances.
+return: funding_model
+
+Q: Find funding opportunities that support prospective observational comparative effectiveness research (CER) in clinical neurosciences, focusing on evaluating preventive strategies, diagnostic approaches, or interventions including drugs, biologics, devices, or surgical, behavioral, and rehabilitation therapies.
+return: funding_model
+
+Q: Find funding opportunities that support exploratory and innovative research projects in neuroscience, focusing on the early and conceptual stages of projects that assess the feasibility of novel avenues of investigation.
+ return: funding_model
+
+ Q: Find funding opportunities that support Early Stage Investigators (ESIs) who qualify for conversion based on receiving a percentile within the NCI payline for established investigators on their R01 applications.
+ return: funding_model
+
+ Q: Find funding opportunities that aim to improve the resolution of current imaging techniques or develop new imaging techniques to visualize inner ear structures in vivo with significantly greater detail and accuracy.
+ return: funding_model
+
+ Q: Find funding opportunities that support high-risk clinical trials for the development of in vivo high-resolution structural and functional imaging technologies for the living human inner ear.
+return: funding_model
+
+Q: Find funding opportunities that support the discovery and development of medications to prevent and treat substance use disorders (SUDs) and overdose, including small molecules, biologics, new chemical entities, new formulations of marketed medications, or combinations of medications.
+return: funding_model
+
+Q: Find funding opportunities that support secondary data analyses of existing human data from vision-related clinical trials, epidemiologic studies, or health care databases to investigate additional research questions or develop new analytical approaches.
+return: funding_model
+
+Q: Find funding opportunities that support a clinical doctoral degree holder conducting and leading an independent clinical trial, feasibility study, or ancillary clinical trial as part of their patient-oriented research career development.
+return: funding_model
+
+Q: Find funding opportunities that support early-career research scientists from low- or middle-income countries (LMICs) holding junior faculty or research appointments, providing mentored research career development and research project support relevant to their country’s health priorities.
+return: funding_model
+
+Q: Find funding opportunities that provide 'protected time' (salary and research support) for individuals with a clinical doctoral degree to pursue intensive, mentored research career development, excluding leadership of independent clinical trials but allowing participation in trials led by a mentor.
+return: funding_model
+
+Q: Find funding opportunities that provide “protected time” for quantitative scientists from fields like mathematics, physics, informatics, or engineering to gain expertise in biomedicine or bioimaging, but explicitly prohibit leading an independent clinical trial (while allowing mentored trial participation).
+return: funding_model
+
+Q: Find funding opportunities that support exceptionally innovative, high-risk, high-reward projects with the potential to establish new scientific paradigms or transformative technologies—without requiring preliminary data and open to all topic areas across the NIH mission."
+return: funding_model
+
+Q: Find funding opportunities that support a longitudinal, nationally representative cohort re-interview, in-home health visits, venous blood collection, biomarker assays, cognitive and sensory assessments, and data dissemination as Wave VII of the Add Health study.
+return: funding_model
+
+ 
+ 
+
+ 
