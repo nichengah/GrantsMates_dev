@@ -43,7 +43,9 @@ stats = {cat: {"TP": 0, "FP": 0, "FN": 0, "TN": 0} for cat in categories}
 
 
 for q, true_label  in zip(questions, returns):
-    pred_label, module = router(q)
+    pred_label = true_label
+    # pred_label, module = router(q)
+
     # 根据每个module 更新对应的TP/FP/FN/TN 计数
     for cat in categories:
         if true_label == cat and pred_label == cat:
@@ -76,7 +78,7 @@ for cat, vals in stats.items():
     # 计算这个模块在所有样本里真实出现的比例（真实为这个模块的样本数除以总样本数）
     prevalence = (vals["TP"] + vals["FN"]) / total_samples if total_samples > 0 else 0
 
-    print(f"Module {cat} - Accuracy: {acc:.2%}, Recall: {rec:.2%}, Specificity: {spec:.2%}, Balanced Accuracy: {bacc:.2%}, Prevalence: {prevalence:.2%}")
+    print(f"\nModule {cat} - Accuracy: {acc:.2%}, Recall: {rec:.2%}, Specificity: {spec:.2%}, Balanced Accuracy: {bacc:.2%}, Prevalence: {prevalence:.2%}")
     all_accuracies.append(acc)
     all_balanced_accuracies.append(bacc)
 
