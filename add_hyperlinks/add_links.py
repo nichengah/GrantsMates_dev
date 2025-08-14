@@ -218,6 +218,7 @@ def create_direct_placement_output(input_path, suffix="_direct_urls"):
 if __name__ == "__main__":
     # 获取当前脚本所在目录
     script_dir = os.path.dirname(os.path.abspath(__file__))
+    # script_dir = os.getcwd()
 
     # 输入文件路径
     input_file = r"C:/Users/李月雯/PycharmProjects/PythonProject1/GrantsMates_dev/add_hyperlinks/AWARD_REVIEW_&_NEGOTIATION.docx"
