@@ -98,7 +98,12 @@ for cat, vals in stats.items():
     all_accuracies.append(acc)
     all_balanced_accuracies.append(bacc)
 
-macro_accuracy = sum(all_accuracies) / len(all_accuracies)
+total_tp = sum(vals["TP"] for vals in stats.values())
+total_tn = sum(vals["TN"] for vals in stats.values())
+total_fp = sum(vals["FP"] for vals in stats.values())
+total_fn = sum(vals["FN"] for vals in stats.values())
+
+overall_accuracy = (total_tp) / (total_tp + total_fp + total_fn + total_tn)
 macro_balanced_accuracy = sum(all_balanced_accuracies) / len(all_balanced_accuracies)
 total_positives = sum(vals["TP"] + vals["FN"] for vals in stats.values())
 overall_prevalence = total_positives / total_samples if total_samples > 0 else 0
