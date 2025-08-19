@@ -10,6 +10,15 @@ Usage: use data files like this: "data.txt"
 
 """
 
+import logging
+#
+# 自定义格式（不带时间戳和级别）
+logging.basicConfig(
+    filename="log.txt",
+    level=logging.INFO,
+    format="%(message)s",  # 只记录消息内容
+    encoding="utf-8"
+)
 
 
 questions = []
@@ -40,11 +49,15 @@ total_samples = len(questions)
 #   "module2": {"TP": 0, "FP": 0, "FN": 0, "TN": 0}...
 stats = {cat: {"TP": 0, "FP": 0, "FN": 0, "TN": 0} for cat in categories}
 
-
-
-for q, true_label  in zip(questions, returns):
+for idx, (q, true_label) in enumerate(zip(questions, returns), start=1):
+    # pred_label = router.route(q)
     pred_label = true_label
-    # pred_label, module = router(q)
+    print(f"Routed to model: {pred_label}")
+
+    logging.info(f"{idx}. Question: {q}")
+    logging.info(f"True label: {true_label}")
+    logging.info(f"Routed to model: {pred_label}")
+    logging.info("---------------------------------------------------")  # 分隔线，方便阅读日志
 
     # 根据每个module 更新对应的TP/FP/FN/TN 计数
     for cat in categories:
@@ -56,6 +69,7 @@ for q, true_label  in zip(questions, returns):
             stats[cat]["FN"] += 1
         else:
             stats[cat]["TN"] += 1
+
 
 
 def calc_metrics(tp, fp, fn, tn):
@@ -78,7 +92,9 @@ for cat, vals in stats.items():
     # 计算这个模块在所有样本里真实出现的比例（真实为这个模块的样本数除以总样本数）
     prevalence = (vals["TP"] + vals["FN"]) / total_samples if total_samples > 0 else 0
 
-    print(f"\nModule {cat} - Accuracy: {acc:.2%}, Recall: {rec:.2%}, Specificity: {spec:.2%}, Balanced Accuracy: {bacc:.2%}, Prevalence: {prevalence:.2%}")
+    msg = f"\nModule {cat} - Accuracy: {acc:.2%}, Recall: {rec:.2%}, Specificity: {spec:.2%}, Balanced Accuracy: {bacc:.2%}, Prevalence: {prevalence:.2%}"
+    print("\n" + msg)
+    logging.info(msg)
     all_accuracies.append(acc)
     all_balanced_accuracies.append(bacc)
 
@@ -90,4 +106,6 @@ overall_prevalence = total_positives / total_samples if total_samples > 0 else 0
 
 print(f"\nOverall Accuracy: {macro_accuracy:.2%}")
 print(f"Overall Balanced Accuracy: {macro_balanced_accuracy:.2%}")
-print(f"Overall Prevalence: {overall_prevalence:.2%}")
+logging.info(f"Overall Accuracy: {macro_accuracy:.2%}")
+logging.info(f"Overall Balanced Accuracy: {macro_balanced_accuracy:.2%}")
+
