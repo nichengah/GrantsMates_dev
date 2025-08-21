@@ -1,5 +1,17 @@
-# install rapidfuzz
-#pip install rapidfuzz
+"""
+Author: Yuewen Li
+Date: 2025/07/25
+Description: this script use fuzzy logic to help users find the correct researcher name when they accidentally make
+typos or miss some words. It can also help user to find the correct researcher name when they only enter the first name or last name.
+If multiple matches are found, the script will ask the user to provide more information about the researcher to get the correct one.
+
+
+Requirements:
+Install the `install rapidfuzz` library using the command:
+    pip install rapidfuzz
+
+"""
+
 
 from rapidfuzz import fuzz, process
 
@@ -34,6 +46,12 @@ def fuzzy_match_multi(user_input, candidates, min_similarity=75, strict_contains
 
 
 def refine_matches(user_input, previous_matched,records, min_similarity=75):
+    for candidate, idx in previous_matched:
+        record = records[idx - 1]
+        # If the email entered by the user exactly matches
+        if user_input == record['email']:
+            return [(record['name'], idx)]
+
     subset_candidates = []
     idx_map = {}
     for candidate, idx in previous_matched:
