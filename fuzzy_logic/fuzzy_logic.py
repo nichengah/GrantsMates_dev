@@ -18,47 +18,81 @@ def fuzzy_match_multi(user_input, candidates, min_similarity=75, strict_contains
 
     final_matches = {}
     for candidate, score, idx in matches:
-        # 如果 strict_contains 为 True，则只保留包含关键词的结果
+        # 如果 strict_contains 为 True，则只保留包含user input的结果
+        # when strict_contains is false then not strict_contains is true
+        # so that all fuzzy matches are included.
+        # otherwise it will only have the results which contain the user input.
         if not strict_contains or user_input in candidate.lower():
             if candidate not in final_matches or score > final_matches[candidate][0]:
                 final_matches[candidate] = (score, idx + 1)
 
+    # sorted the result scores from high to low
     sorted_matches = sorted(final_matches.items(), key=lambda x: x[1][0], reverse=True)
-    return [(candidate, idx) for candidate, (score, idx) in sorted_matches]
+
+    # return only index and name
+    return [(candidate, idx)  for candidate, (score, idx) in sorted_matches]
 
 
+def refine_matches(user_input, previous_matched,records, min_similarity=75):
+    subset_candidates = []
+    idx_map = {}
+    for candidate, idx in previous_matched:
+        record = records[idx - 1]
+        combined = f"{record['name']} {record['email']} {record['job']} {record['department']} {record['school']}".lower()
+        subset_candidates.append(combined)
+        idx_map[combined] = idx
+    refine_match = fuzzy_match_multi(user_input, subset_candidates, min_similarity=73)
+    return [(match, idx_map[match]) for match, _ in refine_match]
 
-    # sorted_indices = sorted(final_matches.values())
-    # return [i + 1 for i in sorted_indices]
 
-with open("names.txt", "r", encoding="utf-8") as file:
-    names_list = [line.strip() for line in file if line.strip()]
+# read all the .txt files and combine them into a dictionary list.
+# each record contains name + email + job + department + school
+records = []
+with open("names.txt", "r", encoding="utf-8") as f1, \
+     open("emails.txt", "r", encoding="utf-8") as f2, \
+     open("job_name.txt", "r", encoding="utf-8") as f3, \
+     open("Department.txt", "r", encoding="utf-8") as f4, \
+     open("school.txt", "r", encoding="utf-8") as f5:
 
-names_list_lower = [name.lower() for name in names_list]
+    for name, email, job, dept, school in zip(f1, f2, f3, f4, f5):
+        records.append({
+            "name": name.strip().lower(),
+            "email": email.strip().lower(),
+            "job": job.strip().lower(),
+            "department": dept.strip().lower(),
+            "school": school.strip().lower()
+        })
 
-with open("emails.txt", "r", encoding="utf-8") as file:
-    emails_list = [line.strip() for line in file if line.strip()]
-
-emails_list_lower = [email.lower() for email in emails_list]
-
+# user input
 user_input = input("Please enter a name or email: ").strip().lower()
-
-
-
+#if the user input is email
 if "@" in user_input:
-    strict = any(user_input in email for email in emails_list_lower)
-    matched = fuzzy_match_multi(user_input, emails_list, strict_contains=strict)
+    strict = any(user_input in record["email"] for record in records)
+    email_candidate = [record["email"] for record in records]
+    matched = fuzzy_match_multi(user_input, email_candidate, strict_contains=strict)
     if matched:
         print(f"Matched email: {matched}")
+        while len(matched) > 1:
+            user_input = input("Multiple matches found. Please enter more information(department, name, job or school): ").strip().lower()
+            refine_matches(user_input,matched, records)
     else:
         print("No good match found for the email.")
 else:
-    strict = any(user_input in name for name in names_list_lower)
-    matched = fuzzy_match_multi(user_input, names_list_lower, strict_contains=strict)
+    # if the user input is name
+    strict = any(user_input in record["name"] for record in records)
+    name_candidate = [record["name"] for record in records]
+    matched = fuzzy_match_multi(user_input, name_candidate, strict_contains=strict)
     if matched:
         print(f"Matched name: {matched}")
+        while len(matched) > 1:
+            user_input = input("Multiple matches found. Please enter more information(department, email, job or school): ").strip().lower()
+            matched = refine_matches(user_input, matched, records)
+            print(f"Matched name: {matched}")
     else:
         print("No good match found for the name.")
+
+
+
 
 
 
