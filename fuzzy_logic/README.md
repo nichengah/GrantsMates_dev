@@ -10,11 +10,13 @@ If multiple matches are found, the script will prompt the user to provide additi
 
 ## Installation
 Install the required libraries, use the following commands:
-<pre>```bash 
+<pre>
+ ```bash 
  pip install rapidfuzz 
  pip install pandas 
  pip install openpyxl 
-     ```</pre>
+ ```
+</pre>
 
 ## Import necessary libraries
 ```python
