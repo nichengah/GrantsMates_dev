@@ -11,9 +11,9 @@ If multiple matches are found, the script will prompt the user to provide additi
 ## Installation
 Install the required libraries, use the following commands:
     ```bash 
-        pip install rapidfuzz
-        pip install pandas 
-        pip install openpyxl 
+    pip install rapidfuzz
+    pip install pandas 
+    pip install openpyxl 
     ```
 
 ## Import necessary libraries
