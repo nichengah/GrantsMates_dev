@@ -96,8 +96,7 @@ else:
     full_names = (records["First_Name"].astype(str).str.strip() + " " + records["Last_Name"].astype(
         str).str.strip()).str.lower()
     strict = any(user_input in name for name in full_names)
-    name_candidate = (records["First_Name"].astype(str).str.strip() + " " + records["Last_Name"].astype(
-        str).str.strip()).str.lower().tolist()
+    name_candidate = full_names.tolist()
 
     matched = fuzzy_match_multi(user_input, name_candidate, strict_contains=strict)
     if matched:
