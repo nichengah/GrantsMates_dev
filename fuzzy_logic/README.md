@@ -10,11 +10,12 @@ If multiple matches are found, the script will prompt the user to provide additi
 
 ## Installation
 Install the required libraries, use the following commands:
-    ``` 
+```bash
     pip install rapidfuzz
     pip install pandas 
     pip install openpyxl 
-    ```
+    
+```
 
 ## Import necessary libraries
 ```python
@@ -41,7 +42,7 @@ The Excel file should contain the following columns:
  4. If multiple matches are found, enter more information to narrow down the result.
 
  ## Features
--- Fuzzy matching for names and emails
--- Handles typos and partial input
--- Interactive refinement for multiple matches
--- Excel-based data input for easy updates
+- Fuzzy matching for names and emails
+- Handles typos and partial input
+- Interactive refinement for multiple matches
+- Excel-based data input for easy updates
