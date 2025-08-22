@@ -7,12 +7,16 @@ If multiple matches are found, the script will ask the user to provide more info
 
 
 Requirements:
-Install the `install rapidfuzz` library using the command:
+To install the required libraries, use the following commands:
     pip install rapidfuzz
+    pip install pandas
+    pip install openpyxl
+
 
 """
 
 
+import pandas as pd
 from rapidfuzz import fuzz, process
 
 
@@ -47,58 +51,54 @@ def fuzzy_match_multi(user_input, candidates, min_similarity=75, strict_contains
 
 def refine_matches(user_input, previous_matched,records, min_similarity=75):
     for candidate, idx in previous_matched:
-        record = records[idx - 1]
+        record = records.iloc[idx - 1]
         # If the email entered by the user exactly matches
-        if user_input == record['email']:
-            return [(record['name'], idx)]
+        if user_input == record['Email_Address']:
+            return [(record['Employee_Full_Name'], idx)]
+        full_names = (records["First_Name"].astype(str).str.strip() + " " + records["Last_Name"].astype(
+            str).str.strip()).str.lower()
+        if any(user_input == name for name in full_names):
+            return [(record['Employee_Full_Name'], idx)]
 
     subset_candidates = []
     idx_map = {}
     for candidate, idx in previous_matched:
-        record = records[idx - 1]
-        combined = f"{record['name']} {record['email']} {record['job']} {record['department']} {record['school']}".lower()
+        record = records.iloc[idx - 1]
+        combined = f"{record['Employee_Full_Name']} {record['First_Name']} {record['Last_Name']} {record['Email_Address']} {record['Job_Name']} {record['Department']} {record['School']}".lower()
         subset_candidates.append(combined)
         idx_map[combined] = idx
     refine_match = fuzzy_match_multi(user_input, subset_candidates, min_similarity=73)
     return [(match, idx_map[match]) for match, _ in refine_match]
 
 
-# read all the .txt files and combine them into a dictionary list.
+# read execel files and combine them into a dictionary list.
 # each record contains name + email + job + department + school
-records = []
-with open("names.txt", "r", encoding="utf-8") as f1, \
-     open("emails.txt", "r", encoding="utf-8") as f2, \
-     open("job_name.txt", "r", encoding="utf-8") as f3, \
-     open("Department.txt", "r", encoding="utf-8") as f4, \
-     open("school.txt", "r", encoding="utf-8") as f5:
+records=pd.read_excel("reserchaer_names_details.xlsx",sheet_name='Sheet1')
 
-    for name, email, job, dept, school in zip(f1, f2, f3, f4, f5):
-        records.append({
-            "name": name.strip().lower(),
-            "email": email.strip().lower(),
-            "job": job.strip().lower(),
-            "department": dept.strip().lower(),
-            "school": school.strip().lower()
-        })
 
 # user input
 user_input = input("Please enter a name or email: ").strip().lower()
 #if the user input is email
 if "@" in user_input:
-    strict = any(user_input in record["email"] for record in records)
-    email_candidate = [record["email"] for record in records]
+    strict = any(user_input in str(email).lower() for email in records["Email_Address"])
+    email_candidate = records["Email_Address"].astype(str).str.lower().tolist()
     matched = fuzzy_match_multi(user_input, email_candidate, strict_contains=strict)
     if matched:
         print(f"Matched email: {matched}")
         while len(matched) > 1:
             user_input = input("Multiple matches found. Please enter more information(department, name, job or school): ").strip().lower()
-            refine_matches(user_input,matched, records)
+            matched = refine_matches(user_input,matched, records)
+            print(f"Matched name: {matched}")
     else:
         print("No good match found for the email.")
 else:
     # if the user input is name
-    strict = any(user_input in record["name"] for record in records)
-    name_candidate = [record["name"] for record in records]
+    full_names = (records["First_Name"].astype(str).str.strip() + " " + records["Last_Name"].astype(
+        str).str.strip()).str.lower()
+    strict = any(user_input in name for name in full_names)
+    name_candidate = (records["First_Name"].astype(str).str.strip() + " " + records["Last_Name"].astype(
+        str).str.strip()).str.lower().tolist()
+
     matched = fuzzy_match_multi(user_input, name_candidate, strict_contains=strict)
     if matched:
         print(f"Matched name: {matched}")
